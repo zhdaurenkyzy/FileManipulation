@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        
         System.out.println("Выберите действие: \n 1 - копировать; \n 2 - переместить; \n 3 - удалить. ");
         int menu = scanner.nextInt();
         System.out.println("Укажите файл");
