@@ -1,9 +1,5 @@
-package com.company;
+package src.java.com.example;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +10,7 @@ public class Main {
         System.out.println("Выберите действие: \n 1 - копировать; \n 2 - переместить; \n 3 - удалить. ");
         int menu = scanner.nextInt();
         System.out.println("Укажите файл");
+        System.out.println(", пожалуйста");
         String fileName = scanner.next();
         switch (menu) {
             case 1:
