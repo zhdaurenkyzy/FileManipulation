@@ -2,7 +2,7 @@ package src.java.com.example;
 
 public enum Words {
     HELLO("hello"),
-    BUY("buy");
+    BUY("buy-buy");
 
     private String name;
 
